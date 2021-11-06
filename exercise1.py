@@ -1,3 +1,4 @@
+
 try:
    fhand = open('mailbox.txt')
 except:
@@ -17,5 +18,7 @@ for line in lines:
          new_list.sort()
 for item in new_list:
    print(item)
+   bibon.write(item)
+   bibon.write('\n')
 fhand.close()
                
